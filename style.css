@@ -3,14 +3,16 @@ header {
   justify-content: center;
   padding: 0px;
   margin: 20px auto;
-  max-width: 1000px;
   color: #fff;
   align-items: center;
+  max-width: 1000px;
 }
+
 body {
   background-color: #1f2937;
   font-family: "Roboto", sans-serif;
 }
+
 .logo {
   font-size: 24px;
   font-weight: bold;
@@ -36,7 +38,6 @@ nav ul li a {
 }
 .container-1 {
   display: flex;
-
   justify-content: left;
   padding: 0px;
   margin: 100px auto;
@@ -44,15 +45,14 @@ nav ul li a {
   max-width: 1000px;
   color: #f9faf8;
   align-items: center;
+  flex-wrap: nowrap;
 }
-.row1 {
-  flex-basis: 100%;
-  flex-grow: 2;
+.row1,
+.row2 {
+  width: 100%;
 }
+
 .break {
   flex-basis: 100%;
   height: 0;
-}
-.row2 {
-  flex-grow: 1;
 }
