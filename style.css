@@ -13,7 +13,7 @@ body {
 }
 
 
-@media (max-width: 431px) {
+@media (max-width: 600px) {
 
     section,
     header {
@@ -56,18 +56,18 @@ body {
 
     section#two .boxes {
         flex-direction: column;
-        padding: 0rem 7rem !important;
+        padding: 4rem 7rem !important;
     }
 
     /* SECTION THREE*/
 
 
     section#three .quote {
-        font-size: 24px !important;
+        font-size: 21px !important;
     }
 
     section#three .author {
-        font-size: 20px !important;
+        font-size: 19px !important;
     }
 
     /* SECTION FOUR*/
@@ -88,7 +88,9 @@ body {
 }
 
 
-@media (max-width: 768px) and (min-width: 432px) {
+
+
+@media (max-width: 800px) and (min-width: 600px) {
 
     section,
     header {
@@ -133,8 +135,9 @@ body {
 
     section#two .boxes {
         flex-direction: column;
-        padding: 0rem 7rem !important;
+        padding: 4rem 7rem !important;
     }
+
 
     /* SECTION THREE*/
 
@@ -161,6 +164,350 @@ body {
     }
 
 }
+
+@media (max-width: 1000px) and (min-width: 800px) {
+
+    section,
+    header {
+        padding: 1rem 5rem !important;
+    }
+
+    /* HEADER*/
+
+
+
+
+    /* SECTION ONE*/
+
+    section#one div#hero {
+        display: flex;
+        gap: 2rem;
+        padding: 8rem 0 7rem 0;
+        flex-direction: row;
+        text-align: left;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    section#one div#hero .img {
+        height: 15rem;
+    }
+
+    /* SECTION TWO*/
+    section#two .boxes {
+        padding: 4rem 0rem !important;
+    }
+
+    /* SECTION THREE*/
+    section#three {
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+
+    section#three .quote {
+        font-size: 24px !important;
+    }
+
+    section#three .author {
+        font-size: 20px !important;
+    }
+
+    /* SECTION FOUR*/
+    section#four {
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+
+    section#four .cta {
+        padding: 2rem !important;
+    }
+
+    section#four h4 {
+        font-size: 17px !important;
+    }
+
+    section#four p {
+        font-size: 12px !important;
+    }
+
+}
+
+@media (max-width: 1200px) and (min-width: 1000px) {
+
+    section,
+    header {
+        padding: 1rem 8rem !important;
+    }
+
+    /* HEADER*/
+
+
+
+
+    /* SECTION ONE*/
+
+    section#one div#hero {
+        display: flex;
+        gap: 2rem;
+        padding: 8rem 0 7rem 0;
+        flex-direction: row;
+        text-align: left;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    section#one div#hero .img {
+        height: 15rem;
+    }
+
+    /* SECTION TWO*/
+    section#two .boxes {
+        padding: 4rem 0rem !important;
+    }
+
+    /* SECTION THREE*/
+    section#three {
+        padding: 5rem 15rem !important;
+    }
+
+    section#three .quote {
+        font-size: 24px !important;
+    }
+
+    section#three .author {
+        font-size: 20px !important;
+    }
+
+    /* SECTION FOUR*/
+    section#four {
+        padding: 5rem 15rem !important;
+    }
+
+    section#four .cta {
+        padding: 2rem !important;
+    }
+
+    section#four h4 {
+        font-size: 17px !important;
+    }
+
+    section#four p {
+        font-size: 12px !important;
+    }
+
+}
+
+@media (max-width: 1700px) and (min-width: 1200px) {
+
+    section,
+    header {
+        padding: 1rem 15rem !important;
+    }
+
+    /* HEADER*/
+
+
+
+
+    /* SECTION ONE*/
+
+    section#one div#hero {
+        display: flex;
+        gap: 2rem;
+        padding: 8rem 0 7rem 0;
+        flex-direction: row;
+        text-align: left;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    section#one div#hero .img {
+        height: 15rem;
+    }
+
+    /* SECTION TWO*/
+    section#two .boxes {
+        padding: 4rem 0rem !important;
+    }
+
+    /* SECTION THREE*/
+    section#three {
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+
+    section#three .quote {
+        font-size: 24px !important;
+    }
+
+    section#three .author {
+        font-size: 20px !important;
+    }
+
+    /* SECTION FOUR*/
+    section#four {
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+
+    section#four .cta {
+        padding: 2rem !important;
+    }
+
+    section#four h4 {
+        font-size: 17px !important;
+    }
+
+    section#four p {
+        font-size: 12px !important;
+    }
+
+}
+
+@media (max-width: 2000px) and (min-width: 1700px) {
+
+    section,
+    header {
+        padding: 1rem 25rem !important;
+    }
+
+    /* HEADER*/
+
+
+
+
+    /* SECTION ONE*/
+
+    section#one div#hero {
+        display: flex;
+        gap: 2rem;
+        padding: 8rem 0 7rem 0;
+        flex-direction: row;
+        text-align: left;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    section#one div#hero .img {
+        height: 15rem;
+    }
+
+    /* SECTION TWO*/
+    section#two .boxes {
+        padding: 4rem 0rem !important;
+    }
+
+    /* SECTION THREE*/
+    section#three {
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+
+    section#three .quote {
+        font-size: 24px !important;
+    }
+
+    section#three .author {
+        font-size: 20px !important;
+    }
+
+    /* SECTION FOUR*/
+    section#four {
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+
+    section#four .cta {
+        padding: 2rem !important;
+    }
+
+    section#four h4 {
+        font-size: 17px !important;
+    }
+
+    section#four p {
+        font-size: 12px !important;
+    }
+
+}
+
+@media (max-width: 2500px) and (min-width: 2000px) {
+
+    section,
+    header {
+        padding: 1rem 25rem !important;
+    }
+
+    /* HEADER*/
+
+
+
+
+    /* SECTION ONE*/
+
+    section#one div#hero {
+        display: flex;
+        gap: 2rem;
+        padding: 8rem 0 7rem 0;
+        flex-direction: row;
+        text-align: left;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    section#one div#hero .img {
+        height: 15rem;
+    }
+
+    /* SECTION TWO*/
+    section#two .boxes {
+        padding: 4rem 0rem !important;
+    }
+
+    /* SECTION THREE*/
+    section#three {
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+
+    section#three .quote {
+        font-size: 24px !important;
+    }
+
+    section#three .author {
+        font-size: 20px !important;
+    }
+
+    /* SECTION FOUR*/
+    section#four {
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+
+    section#four .cta {
+        padding: 2rem !important;
+    }
+
+    section#four h4 {
+        font-size: 17px !important;
+    }
+
+    section#four p {
+        font-size: 12px !important;
+    }
+
+}
+
 
 #hamburger-icon {
     margin: auto 10px;
@@ -330,13 +677,13 @@ section#two h3 {
     text-align: center;
 
     font-weight: 900;
-    padding: 4rem 0;
+    padding-top: 3rem;
 }
 
 section#two .boxes {
     display: flex;
     gap: 2rem;
-    padding: 0 9rem 9rem;
+
 }
 
 section#two .box {
