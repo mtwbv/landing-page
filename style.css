@@ -55,6 +55,7 @@ body {
 
     section#two .boxes {
         flex-direction: column;
+        padding: 0rem 7rem !important;
     }
 
     /* SECTION THREE*/
@@ -90,7 +91,7 @@ body {
 }
 
 #hamburger-icon {
-    margin: auto 25px;
+    margin: auto 10px;
     display: none;
     cursor: pointer;
 }
