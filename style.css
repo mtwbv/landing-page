@@ -225,7 +225,8 @@ body {
 header#zero {
     display: flex;
     flex-direction: row;
-    background-color: #1f2937;
+    /* background-color: #1f2937;*/
+    background-color: #ff0000;
 
 }
 
