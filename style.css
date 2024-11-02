@@ -63,11 +63,11 @@ body {
 
 
     section#three .quote {
-        font-size: 21px !important;
+        font-size: 17px !important;
     }
 
     section#three .author {
-        font-size: 19px !important;
+        font-size: 14px !important;
     }
 
     /* SECTION FOUR*/
@@ -78,11 +78,16 @@ body {
     }
 
     section#four h4 {
-        font-size: 17px !important;
+        font-size: 15px !important;
     }
 
     section#four p {
-        font-size: 12px !important;
+        font-size: 10px !important;
+    }
+
+    /* FOOTER FOUR*/
+    footer p {
+        font-size: 14px !important;
     }
 
 }
