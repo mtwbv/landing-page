@@ -61,6 +61,10 @@ body {
 
     /* SECTION THREE*/
 
+    section#three {
+        padding-top: 5rem !important;
+        padding-bottom: 3rem !important;
+    }
 
     section#three .quote {
         font-size: 17px !important;
@@ -72,6 +76,11 @@ body {
 
     /* SECTION FOUR*/
 
+    section#four {
+
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
 
     section#four .cta {
         padding: 2rem !important;
@@ -145,6 +154,10 @@ body {
 
 
     /* SECTION THREE*/
+    section#three {
+        padding-top: 5rem !important;
+        padding-bottom: 3rem !important;
+    }
 
     section#three .quote {
         font-size: 24px !important;
@@ -155,6 +168,11 @@ body {
     }
 
     /* SECTION FOUR*/
+    section#four {
+
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
 
     section#four .cta {
         padding: 2rem !important;
