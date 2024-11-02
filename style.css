@@ -12,12 +12,11 @@ body {
 
 }
 
-
 @media (max-width: 600px) {
 
     section,
     header {
-        padding: 1rem 1rem !important;
+        padding: 1rem 1rem;
         ;
     }
 
@@ -59,6 +58,10 @@ body {
         padding: 4rem 7rem !important;
     }
 
+    section#two .box-txt {
+        font-size: 17px !important;
+    }
+
     /* SECTION THREE*/
 
     section#three {
@@ -72,6 +75,8 @@ body {
 
     section#three .author {
         font-size: 14px !important;
+        font-weight: 600 !important;
+
     }
 
     /* SECTION FOUR*/
@@ -94,21 +99,28 @@ body {
         font-size: 10px !important;
     }
 
+    section#four button {
+        padding: 6px 25px !important;
+        font-size: 13px !important;
+    }
+
     /* FOOTER FOUR*/
+    footer {
+        padding: 1rem !important;
+    }
+
     footer p {
         font-size: 14px !important;
     }
 
+
 }
-
-
-
 
 @media (max-width: 800px) and (min-width: 600px) {
 
     section,
     header {
-        padding: 1rem 7rem !important;
+        padding: 1rem 7rem;
         ;
     }
 
@@ -192,7 +204,7 @@ body {
 
     section,
     header {
-        padding: 1rem 5rem !important;
+        padding: 1rem 5rem;
     }
 
     /* HEADER*/
@@ -261,7 +273,7 @@ body {
 
     section,
     header {
-        padding: 1rem 8rem !important;
+        padding: 1rem 8rem;
     }
 
     /* HEADER*/
@@ -328,7 +340,7 @@ body {
 
     section,
     header {
-        padding: 1rem 15rem !important;
+        padding: 1rem 15rem;
     }
 
     /* HEADER*/
@@ -397,7 +409,7 @@ body {
 
     section,
     header {
-        padding: 1rem 25rem !important;
+        padding: 1rem 25rem;
     }
 
     /* HEADER*/
@@ -466,7 +478,7 @@ body {
 
     section,
     header {
-        padding: 1rem 25rem !important;
+        padding: 1rem 25rem;
     }
 
     /* HEADER*/
@@ -529,6 +541,12 @@ body {
         font-size: 12px !important;
     }
 
+}
+
+@media (min-width: 2500px) {
+    header#zero {
+        padding: 3rem 47rem;
+    }
 }
 
 
@@ -630,15 +648,17 @@ header#zero a {
     font-weight: 300;
 }
 
-header#zeroa:hover {
+header#zero a:hover {
     color: #616a75;
 }
 
-section,
-header {
-    padding: 3rem 47rem;
 
+header#zero a h1:hover {
+    color: #616a75;
 }
+
+
+
 
 section#one {
     display: flex;
@@ -755,7 +775,7 @@ section#three .quote {
 section#three .author {
     font-size: 24px;
     color: #1f2937;
-    font-weight: 900;
+    font-weight: 600;
     margin: 1rem 0;
     align-self: flex-end;
 }
