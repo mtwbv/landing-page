@@ -198,6 +198,21 @@ body {
         font-size: 12px !important;
     }
 
+    section#four button {
+        padding: 6px 25px !important;
+        font-size: 13px !important;
+    }
+
+    /* FOOTER FOUR*/
+    footer {
+        padding: 1rem !important;
+    }
+
+    footer p {
+        font-size: 14px !important;
+    }
+
+
 }
 
 @media (max-width: 1000px) and (min-width: 800px) {
@@ -237,8 +252,7 @@ body {
 
     /* SECTION THREE*/
     section#three {
-        padding-top: 5rem !important;
-        padding-bottom: 5rem !important;
+        padding: 5rem 12rem !important;
     }
 
     section#three .quote {
@@ -267,6 +281,19 @@ body {
         font-size: 12px !important;
     }
 
+    section#four button {
+        padding: 6px 25px !important;
+        font-size: 13px !important;
+    }
+
+    /* FOOTER FOUR*/
+    footer {
+        padding: 1rem !important;
+    }
+
+    footer p {
+        font-size: 14px !important;
+    }
 }
 
 @media (max-width: 1200px) and (min-width: 1000px) {
@@ -334,6 +361,20 @@ body {
         font-size: 12px !important;
     }
 
+    /* FOOTER FOUR*/
+    footer {
+        padding: 1rem !important;
+    }
+
+    footer p {
+        font-size: 14px !important;
+    }
+
+    section#four button {
+        padding: 6px 25px !important;
+        font-size: 13px !important;
+    }
+
 }
 
 @media (max-width: 1700px) and (min-width: 1200px) {
@@ -373,8 +414,7 @@ body {
 
     /* SECTION THREE*/
     section#three {
-        padding-top: 5rem !important;
-        padding-bottom: 5rem !important;
+        padding: 5rem 24rem !important;
     }
 
     section#three .quote {
@@ -442,8 +482,7 @@ body {
 
     /* SECTION THREE*/
     section#three {
-        padding-top: 5rem !important;
-        padding-bottom: 5rem !important;
+        padding: 5rem 38rem !important;
     }
 
     section#three .quote {
@@ -831,7 +870,7 @@ section#four button:hover {
 
 footer {
     background-color: #1f2937;
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
