@@ -12,583 +12,6 @@ body {
 
 }
 
-@media (max-width: 600px) {
-
-    section,
-    header {
-        padding: 1rem 1rem;
-        ;
-    }
-
-    /* HEADER*/
-
-
-    header nav {
-        display: none !important;
-    }
-
-    #hamburger-icon {
-        display: block !important;
-    }
-
-    /* SECTION ONE*/
-
-
-    section#one div#hero {
-        display: flex;
-        gap: 2rem;
-        padding: 4rem 0 7rem 0 !important;
-        flex-direction: column;
-        text-align: center;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    section#one div#hero .img {
-        height: 15rem;
-    }
-
-    /* SECTION TWO*/
-
-
-    section#two .boxes {
-        flex-direction: column;
-        padding: 4rem 7rem !important;
-    }
-
-    section#two .box-txt {
-        font-size: 17px !important;
-    }
-
-    /* SECTION THREE*/
-
-    section#three {
-        padding-top: 5rem !important;
-        padding-bottom: 3rem !important;
-    }
-
-    section#three .quote {
-        font-size: 17px !important;
-    }
-
-    section#three .author {
-        font-size: 14px !important;
-        font-weight: 600 !important;
-
-    }
-
-    /* SECTION FOUR*/
-
-    section#four {
-
-        padding-top: 3rem !important;
-        padding-bottom: 3rem !important;
-    }
-
-    section#four .cta {
-        padding: 2rem !important;
-    }
-
-    section#four h4 {
-        font-size: 15px !important;
-    }
-
-    section#four p {
-        font-size: 10px !important;
-    }
-
-    section#four button {
-        padding: 6px 25px !important;
-        font-size: 13px !important;
-    }
-
-    /* FOOTER FOUR*/
-    footer {
-        padding: 1rem !important;
-    }
-
-    footer p {
-        font-size: 14px !important;
-    }
-
-
-}
-
-@media (max-width: 800px) and (min-width: 600px) {
-
-    section,
-    header {
-        padding: 1rem 7rem;
-        ;
-    }
-
-    /* HEADER*/
-    header#zero {
-        padding: 1rem 7rem !important;
-    }
-
-    header nav {
-        display: none !important;
-    }
-
-    #hamburger-icon {
-        display: block !important;
-    }
-
-
-
-    /* SECTION ONE*/
-
-    section#one div#hero {
-        display: flex;
-        gap: 2rem;
-        padding: 4rem 0 7rem 0 !important;
-        flex-direction: column;
-        text-align: center;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    section#one div#hero .img {
-        height: 15rem;
-    }
-
-    /* SECTION TWO*/
-
-    section#two .boxes {
-        flex-direction: column;
-        padding: 4rem 7rem !important;
-    }
-
-
-    /* SECTION THREE*/
-    section#three {
-        padding-top: 5rem !important;
-        padding-bottom: 3rem !important;
-    }
-
-    section#three .quote {
-        font-size: 24px !important;
-    }
-
-    section#three .author {
-        font-size: 20px !important;
-    }
-
-    /* SECTION FOUR*/
-    section#four {
-
-        padding-top: 5rem !important;
-        padding-bottom: 5rem !important;
-    }
-
-    section#four .cta {
-        padding: 2rem !important;
-    }
-
-    section#four h4 {
-        font-size: 17px !important;
-    }
-
-    section#four p {
-        font-size: 12px !important;
-    }
-
-    section#four button {
-        padding: 6px 25px !important;
-        font-size: 13px !important;
-    }
-
-    /* FOOTER FOUR*/
-    footer {
-        padding: 1rem !important;
-    }
-
-    footer p {
-        font-size: 14px !important;
-    }
-
-
-}
-
-@media (max-width: 1000px) and (min-width: 800px) {
-
-    section,
-    header {
-        padding: 1rem 5rem;
-    }
-
-    /* HEADER*/
-
-
-
-
-    /* SECTION ONE*/
-
-    section#one div#hero {
-        display: flex;
-        gap: 2rem;
-        padding: 4rem 0 7rem 0 !important;
-        flex-direction: row;
-        text-align: left;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    section#one div#hero .img {
-        height: 15rem;
-    }
-
-    /* SECTION TWO*/
-    section#two .boxes {
-        padding: 4rem 0rem !important;
-    }
-
-    /* SECTION THREE*/
-    section#three {
-        padding: 5rem 12rem !important;
-    }
-
-    section#three .quote {
-        font-size: 24px !important;
-    }
-
-    section#three .author {
-        font-size: 20px !important;
-    }
-
-    /* SECTION FOUR*/
-    section#four {
-        padding-top: 5rem !important;
-        padding-bottom: 5rem !important;
-    }
-
-    section#four .cta {
-        padding: 2rem !important;
-    }
-
-    section#four h4 {
-        font-size: 17px !important;
-    }
-
-    section#four p {
-        font-size: 12px !important;
-    }
-
-    section#four button {
-        padding: 6px 25px !important;
-        font-size: 13px !important;
-    }
-
-    /* FOOTER FOUR*/
-    footer {
-        padding: 1rem !important;
-    }
-
-    footer p {
-        font-size: 14px !important;
-    }
-}
-
-@media (max-width: 1200px) and (min-width: 1000px) {
-
-    section,
-    header {
-        padding: 1rem 8rem;
-    }
-
-    /* HEADER*/
-
-
-
-
-    /* SECTION ONE*/
-
-    section#one div#hero {
-        display: flex;
-        gap: 2rem;
-        padding: 4rem 0 7rem 0 !important;
-        flex-direction: row;
-        text-align: left;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    section#one div#hero .img {
-        height: 15rem;
-    }
-
-    /* SECTION TWO*/
-    section#two .boxes {
-        padding: 4rem 0rem !important;
-    }
-
-    /* SECTION THREE*/
-    section#three {
-        padding: 5rem 15rem !important;
-    }
-
-    section#three .quote {
-        font-size: 24px !important;
-    }
-
-    section#three .author {
-        font-size: 20px !important;
-    }
-
-    /* SECTION FOUR*/
-    section#four {
-        padding: 5rem 15rem !important;
-    }
-
-    section#four .cta {
-        padding: 2rem !important;
-    }
-
-    section#four h4 {
-        font-size: 17px !important;
-    }
-
-    section#four p {
-        font-size: 12px !important;
-    }
-
-    /* FOOTER FOUR*/
-    footer {
-        padding: 1rem !important;
-    }
-
-    footer p {
-        font-size: 14px !important;
-    }
-
-    section#four button {
-        padding: 6px 25px !important;
-        font-size: 13px !important;
-    }
-
-}
-
-@media (max-width: 1700px) and (min-width: 1200px) {
-
-    section,
-    header {
-        padding: 1rem 15rem;
-    }
-
-    /* HEADER*/
-
-
-
-
-    /* SECTION ONE*/
-
-    section#one div#hero {
-        display: flex;
-        gap: 2rem;
-        padding: 4rem 0 7rem 0 !important;
-        flex-direction: row;
-        text-align: left;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    section#one div#hero .img {
-        height: 15rem;
-    }
-
-    /* SECTION TWO*/
-    section#two .boxes {
-        padding: 4rem 0rem !important;
-    }
-
-    /* SECTION THREE*/
-    section#three {
-        padding: 5rem 24rem !important;
-    }
-
-    section#three .quote {
-        font-size: 24px !important;
-    }
-
-    section#three .author {
-        font-size: 20px !important;
-    }
-
-    /* SECTION FOUR*/
-    section#four {
-        padding-top: 5rem !important;
-        padding-bottom: 5rem !important;
-    }
-
-    section#four .cta {
-        padding: 2rem !important;
-    }
-
-    section#four h4 {
-        font-size: 17px !important;
-    }
-
-    section#four p {
-        font-size: 12px !important;
-    }
-
-}
-
-@media (max-width: 2000px) and (min-width: 1700px) {
-
-    section,
-    header {
-        padding: 1rem 25rem;
-    }
-
-    /* HEADER*/
-
-
-
-
-    /* SECTION ONE*/
-
-    section#one div#hero {
-        display: flex;
-        gap: 2rem;
-        padding: 4rem 0 7rem 0 !important;
-        flex-direction: row;
-        text-align: left;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    section#one div#hero .img {
-        height: 15rem;
-    }
-
-    /* SECTION TWO*/
-    section#two .boxes {
-        padding: 4rem 0rem !important;
-    }
-
-    /* SECTION THREE*/
-    section#three {
-        padding: 5rem 38rem !important;
-    }
-
-    section#three .quote {
-        font-size: 24px !important;
-    }
-
-    section#three .author {
-        font-size: 20px !important;
-    }
-
-    /* SECTION FOUR*/
-    section#four {
-        padding-top: 5rem !important;
-        padding-bottom: 5rem !important;
-    }
-
-    section#four .cta {
-        padding: 2rem !important;
-    }
-
-    section#four h4 {
-        font-size: 17px !important;
-    }
-
-    section#four p {
-        font-size: 12px !important;
-    }
-
-}
-
-@media (max-width: 2500px) and (min-width: 2000px) {
-
-    section,
-    header {
-        padding: 1rem 25rem;
-    }
-
-    /* HEADER*/
-
-
-
-
-    /* SECTION ONE*/
-
-    section#one div#hero {
-        display: flex;
-        gap: 2rem;
-        padding: 4rem 0 7rem 0 !important;
-        flex-direction: row;
-        text-align: left;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    section#one div#hero .img {
-        height: 15rem;
-    }
-
-    /* SECTION TWO*/
-    section#two .boxes {
-        padding: 4rem 0rem !important;
-    }
-
-    /* SECTION THREE*/
-    section#three {
-        padding-top: 5rem !important;
-        padding-bottom: 5rem !important;
-    }
-
-    section#three .quote {
-        font-size: 24px !important;
-    }
-
-    section#three .author {
-        font-size: 20px !important;
-    }
-
-    /* SECTION FOUR*/
-    section#four {
-        padding-top: 5rem !important;
-        padding-bottom: 5rem !important;
-    }
-
-    section#four .cta {
-        padding: 2rem !important;
-    }
-
-    section#four h4 {
-        font-size: 17px !important;
-    }
-
-    section#four p {
-        font-size: 12px !important;
-    }
-
-}
-
-@media (min-width: 2500px) {
-    header#zero {
-        padding: 3rem 47rem;
-    }
-}
-
-
 #hamburger-icon {
     margin: auto 10px;
     display: none;
@@ -618,7 +41,7 @@ body {
 }
 
 .open .mobile-menu {
-    display: flex !important;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
@@ -651,7 +74,7 @@ body {
 }
 
 .mobile-menu li a {
-    font-size: 40px !important;
+    font-size: 40px;
 }
 
 header#zero {
@@ -879,4 +302,581 @@ footer {
 footer p {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+
+@media (max-width: 600px) {
+
+    section,
+    header {
+        padding: 1rem 1rem;
+        ;
+    }
+
+    /* HEADER*/
+
+
+    header nav {
+        display: none;
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
+
+    /* SECTION ONE*/
+
+
+    section#one div#hero {
+        display: flex;
+        gap: 2rem;
+        padding: 4rem 0 7rem 0;
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    section#one div#hero .img {
+        height: 15rem;
+    }
+
+    /* SECTION TWO*/
+
+
+    section#two .boxes {
+        flex-direction: column;
+        padding: 4rem 7rem;
+    }
+
+    section#two .box-txt {
+        font-size: 17px;
+    }
+
+    /* SECTION THREE*/
+
+    section#three {
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+    }
+
+    section#three .quote {
+        font-size: 17px;
+    }
+
+    section#three .author {
+        font-size: 14px;
+        font-weight: 600;
+
+    }
+
+    /* SECTION FOUR*/
+
+    section#four {
+
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    section#four .cta {
+        padding: 2rem;
+    }
+
+    section#four h4 {
+        font-size: 15px;
+    }
+
+    section#four p {
+        font-size: 10px;
+    }
+
+    section#four button {
+        padding: 6px 25px;
+        font-size: 13px;
+    }
+
+    /* FOOTER FOUR*/
+    footer {
+        padding: 1rem;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+
+}
+
+@media (max-width: 800px) and (min-width: 600px) {
+
+    section,
+    header {
+        padding: 1rem 7rem;
+        ;
+    }
+
+    /* HEADER*/
+    header#zero {
+        padding: 1rem 7rem;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
+
+
+
+    /* SECTION ONE*/
+
+    section#one div#hero {
+        display: flex;
+        gap: 2rem;
+        padding: 4rem 0 7rem 0;
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    section#one div#hero .img {
+        height: 15rem;
+    }
+
+    /* SECTION TWO*/
+
+    section#two .boxes {
+        flex-direction: column;
+        padding: 4rem 7rem;
+    }
+
+
+    /* SECTION THREE*/
+    section#three {
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+    }
+
+    section#three .quote {
+        font-size: 24px;
+    }
+
+    section#three .author {
+        font-size: 20px;
+    }
+
+    /* SECTION FOUR*/
+    section#four {
+
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    section#four .cta {
+        padding: 2rem;
+    }
+
+    section#four h4 {
+        font-size: 17px;
+    }
+
+    section#four p {
+        font-size: 12px;
+    }
+
+    section#four button {
+        padding: 6px 25px;
+        font-size: 13px;
+    }
+
+    /* FOOTER FOUR*/
+    footer {
+        padding: 1rem;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+
+}
+
+@media (max-width: 1000px) and (min-width: 800px) {
+
+    section,
+    header {
+        padding: 1rem 5rem;
+    }
+
+    /* HEADER*/
+
+
+
+
+    /* SECTION ONE*/
+
+    section#one div#hero {
+        display: flex;
+        gap: 2rem;
+        padding: 4rem 0 7rem 0;
+        flex-direction: row;
+        text-align: left;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    section#one div#hero .img {
+        height: 15rem;
+    }
+
+    /* SECTION TWO*/
+    section#two .boxes {
+        padding: 4rem 0rem;
+    }
+
+    /* SECTION THREE*/
+    section#three {
+        padding: 5rem 12rem;
+    }
+
+    section#three .quote {
+        font-size: 24px;
+    }
+
+    section#three .author {
+        font-size: 20px;
+    }
+
+    /* SECTION FOUR*/
+    section#four {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    section#four .cta {
+        padding: 2rem;
+    }
+
+    section#four h4 {
+        font-size: 17px;
+    }
+
+    section#four p {
+        font-size: 12px;
+    }
+
+    section#four button {
+        padding: 6px 25px;
+        font-size: 13px;
+    }
+
+    /* FOOTER FOUR*/
+    footer {
+        padding: 1rem;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 1000px) {
+
+    section,
+    header {
+        padding: 1rem 8rem;
+    }
+
+    /* HEADER*/
+
+
+
+
+    /* SECTION ONE*/
+
+    section#one div#hero {
+        display: flex;
+        gap: 2rem;
+        padding: 4rem 0 7rem 0;
+        flex-direction: row;
+        text-align: left;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    section#one div#hero .img {
+        height: 15rem;
+    }
+
+    /* SECTION TWO*/
+    section#two .boxes {
+        padding: 4rem 0rem;
+    }
+
+    /* SECTION THREE*/
+    section#three {
+        padding: 5rem 15rem;
+    }
+
+    section#three .quote {
+        font-size: 24px;
+    }
+
+    section#three .author {
+        font-size: 20px;
+    }
+
+    /* SECTION FOUR*/
+    section#four {
+        padding: 5rem 15rem;
+    }
+
+    section#four .cta {
+        padding: 2rem;
+    }
+
+    section#four h4 {
+        font-size: 17px;
+    }
+
+    section#four p {
+        font-size: 12px;
+    }
+
+    /* FOOTER FOUR*/
+    footer {
+        padding: 1rem;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    section#four button {
+        padding: 6px 25px;
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 1700px) and (min-width: 1200px) {
+
+    section,
+    header {
+        padding: 1rem 15rem;
+    }
+
+    /* HEADER*/
+
+
+
+
+    /* SECTION ONE*/
+
+    section#one div#hero {
+        display: flex;
+        gap: 2rem;
+        padding: 4rem 0 7rem 0;
+        flex-direction: row;
+        text-align: left;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    section#one div#hero .img {
+        height: 15rem;
+    }
+
+    /* SECTION TWO*/
+    section#two .boxes {
+        padding: 4rem 0rem;
+    }
+
+    /* SECTION THREE*/
+    section#three {
+        padding: 5rem 24rem;
+    }
+
+    section#three .quote {
+        font-size: 24px;
+    }
+
+    section#three .author {
+        font-size: 20px;
+    }
+
+    /* SECTION FOUR*/
+    section#four {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    section#four .cta {
+        padding: 2rem;
+    }
+
+    section#four h4 {
+        font-size: 17px;
+    }
+
+    section#four p {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 2000px) and (min-width: 1700px) {
+
+    section,
+    header {
+        padding: 1rem 25rem;
+    }
+
+    /* HEADER*/
+
+
+
+
+    /* SECTION ONE*/
+
+    section#one div#hero {
+        display: flex;
+        gap: 2rem;
+        padding: 4rem 0 7rem 0;
+        flex-direction: row;
+        text-align: left;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    section#one div#hero .img {
+        height: 15rem;
+    }
+
+    /* SECTION TWO*/
+    section#two .boxes {
+        padding: 4rem 0rem;
+    }
+
+    /* SECTION THREE*/
+    section#three {
+        padding: 5rem 38rem;
+    }
+
+    section#three .quote {
+        font-size: 24px;
+    }
+
+    section#three .author {
+        font-size: 20px;
+    }
+
+    /* SECTION FOUR*/
+    section#four {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    section#four .cta {
+        padding: 2rem;
+    }
+
+    section#four h4 {
+        font-size: 17px;
+    }
+
+    section#four p {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 2500px) and (min-width: 2000px) {
+
+    section,
+    header {
+        padding: 1rem 25rem;
+    }
+
+    /* HEADER*/
+
+
+
+
+    /* SECTION ONE*/
+
+    section#one div#hero {
+        display: flex;
+        gap: 2rem;
+        padding: 4rem 0 7rem 0;
+        flex-direction: row;
+        text-align: left;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    section#one div#hero .img {
+        height: 15rem;
+    }
+
+    /* SECTION TWO*/
+    section#two .boxes {
+        padding: 4rem 0rem;
+    }
+
+    /* SECTION THREE*/
+    section#three {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    section#three .quote {
+        font-size: 24px;
+    }
+
+    section#three .author {
+        font-size: 20px;
+    }
+
+    /* SECTION FOUR*/
+    section#four {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    section#four .cta {
+        padding: 2rem;
+    }
+
+    section#four h4 {
+        font-size: 17px;
+    }
+
+    section#four p {
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 2500px) {
+    header#zero {
+        padding: 3rem 47rem;
+    }
 }
