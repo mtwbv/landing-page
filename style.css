@@ -146,7 +146,7 @@ section#one div#hero p {
 }
 
 .mobile-menu li a {
-    font-size: 40px;
+    font-size: 40px !important;
 }
 
 section#one div#hero button {
